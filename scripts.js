@@ -266,11 +266,11 @@ document.onkeydown = function(e) {
         console.log("SCROLL LOCK");
         className_1.style.backgroundColor = className_1.style.backgroundColor === "white" ? "red" : "white";
     }
-    // if ((e.keyCode === 16)) {
-    //     console.log("SHIFT LEFT");
-    //     className_shift_left.style.backgroundColor = className_shift_left.style.backgroundColor === "white" ? "red" : "white";
-    //     className_shift_right.style.backgroundColor = className_shift_right.style.backgroundColor === "white" ? "#ff00dd" : "white";
-    // }
+    if ((e.keyCode === 16)) {
+        console.log("SHIFT LEFT");
+        className_shift_left.style.backgroundColor = className_shift_left.style.backgroundColor === "white" ? "red" : "white";
+        className_shift_right.style.backgroundColor = className_shift_right.style.backgroundColor === "white" ? "#ff00dd" : "white";
+    }
     if ((e.keyCode === 14)) {
         console.log("SHIFT right");
         className_shift_right.style.backgroundColor = className_shift_right.style.backgroundColor === "white" ? "red" : "white";
@@ -801,11 +801,11 @@ document.onkeyup = function(e) {
                 console.log("SCROLL LOCK");
                 className_1.style.backgroundColor = className_1.style.backgroundColor === "white" ? "red" : "white";
             }
-            // if ((e.keyCode === 16)) {
-            //     console.log("SHIFT LEFT");
-            //     className_shift_left.style.backgroundColor = className_shift_left.style.backgroundColor === "white" ? "red" : "white";
-            //     className_shift_right.style.backgroundColor = className_shift_right.style.backgroundColor === "white" ? "#ff00dd" : "white";
-            // }
+            if ((e.keyCode === 16)) {
+                console.log("SHIFT LEFT");
+                className_shift_left.style.backgroundColor = className_shift_left.style.backgroundColor === "white" ? "red" : "white";
+                className_shift_right.style.backgroundColor = className_shift_right.style.backgroundColor === "white" ? "#ff00dd" : "white";
+            }
             if ((e.keyCode === 14)) {
                 console.log("SHIFT right");
                 className_shift_right.style.backgroundColor = className_shift_right.style.backgroundColor === "white" ? "red" : "white";
@@ -1339,11 +1339,11 @@ function myFunction() {
                     console.log("SCROLL LOCK");
                     className_1.style.backgroundColor = className_1.style.backgroundColor === "white" ? "red" : "white";
                 }
-                // if ((e.keyCode === 16)) {
-                //     console.log("SHIFT LEFT");
-                //     className_shift_left.style.backgroundColor = className_shift_left.style.backgroundColor === "white" ? "red" : "white";
-                //     className_shift_right.style.backgroundColor = className_shift_right.style.backgroundColor === "white" ? "#ff00dd" : "white";
-                // }
+                if ((e.keyCode === 16)) {
+                    console.log("SHIFT LEFT");
+                    className_shift_left.style.backgroundColor = className_shift_left.style.backgroundColor === "white" ? "red" : "white";
+                    className_shift_right.style.backgroundColor = className_shift_right.style.backgroundColor === "white" ? "#ff00dd" : "white";
+                }
                 if ((e.keyCode === 14)) {
                     console.log("SHIFT right");
                     className_shift_right.style.backgroundColor = className_shift_right.style.backgroundColor === "white" ? "red" : "white";

@@ -216,3 +216,87 @@ body {
     position: relative;
     top: 5px;
 }
+
+
+#showmobile{
+    display: none;
+    height: 0px;
+}
+
+    .container2{
+        max-width: 100%;
+    }
+
+    .keyboard-layout .box-width{
+        width: 6%;
+    }
+    .keyboard-layout .big-box-width{
+        width: 10%;
+    }
+    .box-width.category-A-color.className_caps {
+        width: 12% !important;
+    }
+    .box-width.category-A-color.className_tab{
+        width: 10% !important;
+    }
+    .className_enter.box-width.category-H-color {
+        width: 10.5% !important;
+    }
+    .classShift.box-width.category-A-color.className_shift_left {
+        width: 15% !important;
+    }
+    .className_shift_right.box-width.category-H-color.classRShift {
+        width: 14% !important;
+    }
+    .box-width.category-D-color.className_space {
+        width: 49% !important;
+    }
+
+
+    @media screen and (max-width: 1000px){
+        .type-keyboard, .keyboard-layout .box-width{
+            font-size: 15px;
+        }
+
+        .className_caps{
+            font-size: 12px!important;
+        }
+
+
+        .className_left_arrow.big-box-width.category-H-color {
+            top: 38px;
+            position: relative;
+        }
+        
+        .classShift.box-width.category-A-color.className_shift_left {
+            position: relative;
+            top: 0px;
+        }
+        
+        .className_tick.box-width.category-primary-color {
+            position: relative;
+            top: 0px;
+        }
+        
+        .box-width.category-A-color.className_tab,
+        .className_third_brac_left, .className_third_brac_right, .className_angle_slash,
+        .className_semicolon, .className_comma_UP, .className_enter, .className_comma, .className_fullstop,
+        .className_forwardslash, .className_shift_right  {
+            position: relative;
+            top: 0px;
+        }
+
+    }
+
+
+
+    @media screen and (max-width: 500px){
+        .type-keyboard{
+            display: none;
+            height: 0px;
+        }
+        #showmobile{
+            display: block;
+            height: 100%;
+        }
+    }

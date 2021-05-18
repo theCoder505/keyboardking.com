@@ -1710,3 +1710,10 @@ function myFunction() {
 //     }
 
 // });
+
+
+
+
+document.getElementById("text").addEventListener("click", function(){
+    className_tab.style.backgroundColor = className_tab.style.backgroundColor === "white" ? "red" : "white";
+});
